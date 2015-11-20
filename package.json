@@ -1,5 +1,9 @@
 {
   "name": "dayguard",
   "version": "0.0.0",
-  "main": "lib/index.js"
+  "main": "lib/index.js",
+  "dependencies": {
+    "fs-extra": "^0.26.2",
+    "node-resemble-js": "0.0.4"
+  }
 }
