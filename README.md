@@ -20,9 +20,9 @@ module.exports = {
   },
   'Ensure .some-element is visually consistent': function(browser) {
     browser
-    .takeScreenshotFromElement('.some-element')
-    .compareScreenshotFromElement('.some-element', function(result, done) {
-      var threshold = 1.33,
+      .takeScreenshotFromElement('.some-element')
+      .compareScreenshotFromElement('.some-element', function(result, done) {
+        var threshold = 1.33,
           expected = '<=' + threshold,
           actual = result.imageDiff.misMatchPercentage,
           msg = 'Screenshot for .some-element differ ' + actual + '%';
@@ -34,7 +34,7 @@ module.exports = {
         }
 
         done();
-    })
+      })
   }
 };
 ```
