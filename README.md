@@ -23,9 +23,9 @@ module.exports = {
       .takeScreenshotFromElement('.some-element')
       .compareScreenshotFromElement('.some-element', function(result, done) {
         var threshold = 1.33,
-          expected = '<=' + threshold,
-          actual = result.imageDiff.misMatchPercentage,
-          msg = 'Screenshot for .some-element differ ' + actual + '%';
+            expected = '<=' + threshold,
+            actual = result.imageDiff.misMatchPercentage,
+            msg = 'Screenshot for .some-element differ ' + actual + '%';
 
         if (parseFloat(actual) >= parseFloat(threshold)) {
           browser.fail(actual, expected, msg);
@@ -34,7 +34,7 @@ module.exports = {
         }
 
         done();
-      })
+      });
   }
 };
 ```
