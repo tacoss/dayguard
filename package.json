@@ -5,6 +5,6 @@
   "dependencies": {
     "fs-extra": "^0.26.2",
     "gm": "^1.21.1",
-    "node-resemble-js": "0.0.4"
+    "node-resemble-js": "git+https://github.com/lksv/node-resemble.js.git"
   }
 }
