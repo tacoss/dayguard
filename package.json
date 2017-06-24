@@ -6,5 +6,10 @@
     "fs-extra": "^0.26.2",
     "gm": "^1.21.1",
     "node-resemble-js": "git+https://github.com/lksv/node-resemble.js.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0"
   }
 }
