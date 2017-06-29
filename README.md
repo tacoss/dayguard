@@ -64,7 +64,7 @@ module.exports = {
       .url('http://randomcolour.com/')
       .waitForElementVisible('body', 200);
   },
-  'Take an screenshot and ask for differences': browser => {
+  'Take a screenshot and ask for differences': browser => {
     browser
       .assert.visualChangesOf('body')
       .end();
