@@ -6,7 +6,7 @@ It's based on [Resemble.js](https://www.npmjs.com/package/node-resemble-js) (for
 
 ## API
 
-- `visualChangesOf(selector, threshold)` &mdash; will call low-level commands and test for differences
+- `visualChangesOf(selector, customName, threshold)` &mdash; will call low-level commands and test for differences
 - `takeScreenshotFromElement(selector, customName, timeout)` &mdash; takes a custom screenshot for the given selector
 - `compareScreenshotFromElement(selector, customName, callback)` &mdash; compare the differences between the last references
 
